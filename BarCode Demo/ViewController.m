@@ -58,12 +58,11 @@
 //NOTE :- BUtton Actions
 - (IBAction)btnManuallyEnterBarCodeScan_Action:(id)sender {
     if (self.textfldData.text.length == 0) {
-        
+        [self showAlert:@"Problem" withMessage:@"please enter some value"];
     } else {
         Webservice *obj = [[Webservice alloc]init];
         obj.delegate = self;
         [obj getData:self.textfldData.text];
-        
     }
 }
 - (IBAction)btnSubmitAction:(id)sender {
