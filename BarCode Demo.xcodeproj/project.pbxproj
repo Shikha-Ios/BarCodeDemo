@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42ACCE643029D1F00EBB1777 /* libPods-BarCode Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D4EDBA1900B796CCD563747 /* libPods-BarCode Demo.a */; };
+		842EF0992034C6B8002DAB08 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 842EF0982034C6B8002DAB08 /* MediaPlayer.framework */; };
+		842EF09A2034CA78002DAB08 /* ScanditBarcodeScanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 842EF0922034C4FB002DAB08 /* ScanditBarcodeScanner.framework */; };
+		845E3A022034AC50008BBD99 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 845E3A012034AC50008BBD99 /* AppDelegate.m */; };
+		845E3A052034AC50008BBD99 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845E3A042034AC50008BBD99 /* ViewController.m */; };
+		845E3A082034AC50008BBD99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845E3A062034AC50008BBD99 /* Main.storyboard */; };
+		845E3A0B2034AC50008BBD99 /* BarCode_Demo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 845E3A092034AC50008BBD99 /* BarCode_Demo.xcdatamodeld */; };
+		845E3A0D2034AC50008BBD99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845E3A0C2034AC50008BBD99 /* Assets.xcassets */; };
+		845E3A102034AC50008BBD99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845E3A0E2034AC50008BBD99 /* LaunchScreen.storyboard */; };
+		845E3A132034AC50008BBD99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 845E3A122034AC50008BBD99 /* main.m */; };
+		845E3A252034B5CE008BBD99 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 845E3A242034B5CE008BBD99 /* libz.tbd */; };
+		845E3A272034B614008BBD99 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 845E3A262034B614008BBD99 /* libiconv.tbd */; };
+		845E3A2D2034B8DC008BBD99 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845E3A2C2034B8DC008BBD99 /* CoreLocation.framework */; };
+		845E3A352034B93F008BBD99 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845E3A342034B93F008BBD99 /* AudioToolbox.framework */; };
+		845E3A372034B94C008BBD99 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845E3A362034B94B008BBD99 /* CoreGraphics.framework */; };
+		845E3A3B2034B967008BBD99 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845E3A3A2034B967008BBD99 /* CoreVideo.framework */; };
+		845E3A3D2034B977008BBD99 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845E3A3C2034B977008BBD99 /* MessageUI.framework */; };
+		845E3A3F2034B980008BBD99 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845E3A3E2034B980008BBD99 /* OpenGLES.framework */; };
+		845E3A412034B98A008BBD99 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845E3A402034B98A008BBD99 /* CoreText.framework */; };
+		845E3A432034B992008BBD99 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845E3A422034B992008BBD99 /* Accelerate.framework */; };
+		845E3A452034B9A3008BBD99 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 845E3A442034B9A3008BBD99 /* libc++.tbd */; };
+		845E3A502034BC59008BBD99 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845E3A382034B956008BBD99 /* Foundation.framework */; };
+		845E3A562034BC59008BBD99 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845E3A322034B934008BBD99 /* AVFoundation.framework */; };
+		845E3A582034BC59008BBD99 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845E3A302034B91F008BBD99 /* CoreMedia.framework */; };
+		845E3A5A2034BC59008BBD99 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845E3A2E2034B8EB008BBD99 /* QuartzCore.framework */; };
+		845E3A5E2034BC59008BBD99 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 845E3A2A2034B8CE008BBD99 /* SystemConfiguration.framework */; };
+		A7A8832E20354D6000026870 /* Webservice.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A8832C20354D6000026870 /* Webservice.m */; };
+		A7A8833120354E1900026870 /* Modal.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A8832F20354E1900026870 /* Modal.m */; };
+		A7A883352035515000026870 /* WebServicesResultModal.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A883342035515000026870 /* WebServicesResultModal.m */; };
+		A7A883382035531D00026870 /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A883372035531D00026870 /* ResultViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0031497B50EF7F1AC20E42DB /* Pods-BarCode Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BarCode Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BarCode Demo/Pods-BarCode Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		260C0FC04EA1E4BA945956AA /* Pods-BarCode Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BarCode Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-BarCode Demo/Pods-BarCode Demo.release.xcconfig"; sourceTree = "<group>"; };
+		842EF0922034C4FB002DAB08 /* ScanditBarcodeScanner.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScanditBarcodeScanner.framework; path = ScanditSDK/ScanditBarcodeScanner.framework; sourceTree = "<group>"; };
+		842EF0982034C6B8002DAB08 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		845E39FD2034AC50008BBD99 /* BarCode Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BarCode Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		845E3A002034AC50008BBD99 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		845E3A012034AC50008BBD99 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		845E3A032034AC50008BBD99 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		845E3A042034AC50008BBD99 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		845E3A072034AC50008BBD99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		845E3A0A2034AC50008BBD99 /* BarCode_Demo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BarCode_Demo.xcdatamodel; sourceTree = "<group>"; };
+		845E3A0C2034AC50008BBD99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		845E3A0F2034AC50008BBD99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		845E3A112034AC50008BBD99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		845E3A122034AC50008BBD99 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		845E3A242034B5CE008BBD99 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		845E3A262034B614008BBD99 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		845E3A2A2034B8CE008BBD99 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		845E3A2C2034B8DC008BBD99 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		845E3A2E2034B8EB008BBD99 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		845E3A302034B91F008BBD99 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		845E3A322034B934008BBD99 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		845E3A342034B93F008BBD99 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		845E3A362034B94B008BBD99 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		845E3A382034B956008BBD99 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		845E3A3A2034B967008BBD99 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		845E3A3C2034B977008BBD99 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		845E3A3E2034B980008BBD99 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		845E3A402034B98A008BBD99 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		845E3A422034B992008BBD99 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		845E3A442034B9A3008BBD99 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		8D4EDBA1900B796CCD563747 /* libPods-BarCode Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BarCode Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7A8832C20354D6000026870 /* Webservice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Webservice.m; path = WebServicesClass/Webservice.m; sourceTree = SOURCE_ROOT; };
+		A7A8832D20354D6000026870 /* Webservice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Webservice.h; path = WebServicesClass/Webservice.h; sourceTree = SOURCE_ROOT; };
+		A7A8832F20354E1900026870 /* Modal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Modal.m; path = WebserviceModal/Modal.m; sourceTree = SOURCE_ROOT; };
+		A7A8833020354E1900026870 /* Modal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Modal.h; path = WebserviceModal/Modal.h; sourceTree = SOURCE_ROOT; };
+		A7A883332035515000026870 /* WebServicesResultModal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebServicesResultModal.h; sourceTree = "<group>"; };
+		A7A883342035515000026870 /* WebServicesResultModal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebServicesResultModal.m; sourceTree = "<group>"; };
+		A7A883362035531D00026870 /* ResultViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResultViewController.h; sourceTree = "<group>"; };
+		A7A883372035531D00026870 /* ResultViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResultViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		845E39FA2034AC50008BBD99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842EF0992034C6B8002DAB08 /* MediaPlayer.framework in Frameworks */,
+				845E3A452034B9A3008BBD99 /* libc++.tbd in Frameworks */,
+				845E3A432034B992008BBD99 /* Accelerate.framework in Frameworks */,
+				845E3A412034B98A008BBD99 /* CoreText.framework in Frameworks */,
+				845E3A582034BC59008BBD99 /* CoreMedia.framework in Frameworks */,
+				845E3A3F2034B980008BBD99 /* OpenGLES.framework in Frameworks */,
+				845E3A3D2034B977008BBD99 /* MessageUI.framework in Frameworks */,
+				845E3A3B2034B967008BBD99 /* CoreVideo.framework in Frameworks */,
+				845E3A502034BC59008BBD99 /* Foundation.framework in Frameworks */,
+				845E3A372034B94C008BBD99 /* CoreGraphics.framework in Frameworks */,
+				845E3A352034B93F008BBD99 /* AudioToolbox.framework in Frameworks */,
+				845E3A562034BC59008BBD99 /* AVFoundation.framework in Frameworks */,
+				845E3A5E2034BC59008BBD99 /* SystemConfiguration.framework in Frameworks */,
+				842EF09A2034CA78002DAB08 /* ScanditBarcodeScanner.framework in Frameworks */,
+				845E3A5A2034BC59008BBD99 /* QuartzCore.framework in Frameworks */,
+				845E3A2D2034B8DC008BBD99 /* CoreLocation.framework in Frameworks */,
+				845E3A272034B614008BBD99 /* libiconv.tbd in Frameworks */,
+				845E3A252034B5CE008BBD99 /* libz.tbd in Frameworks */,
+				42ACCE643029D1F00EBB1777 /* libPods-BarCode Demo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		845E39F42034AC50008BBD99 = {
+			isa = PBXGroup;
+			children = (
+				842EF0922034C4FB002DAB08 /* ScanditBarcodeScanner.framework */,
+				845E39FF2034AC50008BBD99 /* BarCode Demo */,
+				845E3A232034B5CD008BBD99 /* Frameworks */,
+				845E39FE2034AC50008BBD99 /* Products */,
+				EA19D5568D2DE7782D304A91 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		845E39FE2034AC50008BBD99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				845E39FD2034AC50008BBD99 /* BarCode Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		845E39FF2034AC50008BBD99 /* BarCode Demo */ = {
+			isa = PBXGroup;
+			children = (
+				A7A883322035512400026870 /* ModalClass */,
+				A7A8833020354E1900026870 /* Modal.h */,
+				A7A8832F20354E1900026870 /* Modal.m */,
+				A7A8832D20354D6000026870 /* Webservice.h */,
+				A7A8832C20354D6000026870 /* Webservice.m */,
+				845E3A002034AC50008BBD99 /* AppDelegate.h */,
+				845E3A012034AC50008BBD99 /* AppDelegate.m */,
+				845E3A032034AC50008BBD99 /* ViewController.h */,
+				845E3A042034AC50008BBD99 /* ViewController.m */,
+				A7A883362035531D00026870 /* ResultViewController.h */,
+				A7A883372035531D00026870 /* ResultViewController.m */,
+				845E3A062034AC50008BBD99 /* Main.storyboard */,
+				845E3A0C2034AC50008BBD99 /* Assets.xcassets */,
+				845E3A0E2034AC50008BBD99 /* LaunchScreen.storyboard */,
+				845E3A112034AC50008BBD99 /* Info.plist */,
+				845E3A122034AC50008BBD99 /* main.m */,
+				845E3A092034AC50008BBD99 /* BarCode_Demo.xcdatamodeld */,
+			);
+			path = "BarCode Demo";
+			sourceTree = "<group>";
+		};
+		845E3A232034B5CD008BBD99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				842EF0982034C6B8002DAB08 /* MediaPlayer.framework */,
+				845E3A442034B9A3008BBD99 /* libc++.tbd */,
+				845E3A422034B992008BBD99 /* Accelerate.framework */,
+				845E3A402034B98A008BBD99 /* CoreText.framework */,
+				845E3A3E2034B980008BBD99 /* OpenGLES.framework */,
+				845E3A3C2034B977008BBD99 /* MessageUI.framework */,
+				845E3A3A2034B967008BBD99 /* CoreVideo.framework */,
+				845E3A382034B956008BBD99 /* Foundation.framework */,
+				845E3A362034B94B008BBD99 /* CoreGraphics.framework */,
+				845E3A342034B93F008BBD99 /* AudioToolbox.framework */,
+				845E3A322034B934008BBD99 /* AVFoundation.framework */,
+				845E3A302034B91F008BBD99 /* CoreMedia.framework */,
+				845E3A2E2034B8EB008BBD99 /* QuartzCore.framework */,
+				845E3A2C2034B8DC008BBD99 /* CoreLocation.framework */,
+				845E3A2A2034B8CE008BBD99 /* SystemConfiguration.framework */,
+				845E3A262034B614008BBD99 /* libiconv.tbd */,
+				845E3A242034B5CE008BBD99 /* libz.tbd */,
+				8D4EDBA1900B796CCD563747 /* libPods-BarCode Demo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A7A883322035512400026870 /* ModalClass */ = {
+			isa = PBXGroup;
+			children = (
+				A7A883332035515000026870 /* WebServicesResultModal.h */,
+				A7A883342035515000026870 /* WebServicesResultModal.m */,
+			);
+			path = ModalClass;
+			sourceTree = "<group>";
+		};
+		EA19D5568D2DE7782D304A91 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0031497B50EF7F1AC20E42DB /* Pods-BarCode Demo.debug.xcconfig */,
+				260C0FC04EA1E4BA945956AA /* Pods-BarCode Demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		845E39FC2034AC50008BBD99 /* BarCode Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 845E3A162034AC50008BBD99 /* Build configuration list for PBXNativeTarget "BarCode Demo" */;
+			buildPhases = (
+				9D6024426CA9091EC65A8419 /* [CP] Check Pods Manifest.lock */,
+				845E39F92034AC50008BBD99 /* Sources */,
+				845E39FA2034AC50008BBD99 /* Frameworks */,
+				845E39FB2034AC50008BBD99 /* Resources */,
+				1E1BA9DCEB161D5E0FB3763E /* [CP] Embed Pods Frameworks */,
+				FB885A1204F464EB425026AE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BarCode Demo";
+			productName = "BarCode Demo";
+			productReference = 845E39FD2034AC50008BBD99 /* BarCode Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		845E39F52034AC50008BBD99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Shikha Singla";
+				TargetAttributes = {
+					845E39FC2034AC50008BBD99 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 845E39F82034AC50008BBD99 /* Build configuration list for PBXProject "BarCode Demo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 845E39F42034AC50008BBD99;
+			productRefGroup = 845E39FE2034AC50008BBD99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				845E39FC2034AC50008BBD99 /* BarCode Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		845E39FB2034AC50008BBD99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845E3A102034AC50008BBD99 /* LaunchScreen.storyboard in Resources */,
+				845E3A0D2034AC50008BBD99 /* Assets.xcassets in Resources */,
+				845E3A082034AC50008BBD99 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E1BA9DCEB161D5E0FB3763E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BarCode Demo/Pods-BarCode Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D6024426CA9091EC65A8419 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BarCode Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB885A1204F464EB425026AE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BarCode Demo/Pods-BarCode Demo-resources.sh",
+				"${PODS_ROOT}/ScanditSDK/ScanditSDK/beep.wav",
+				"${PODS_ROOT}/ScanditSDK/ScanditSDK/camera-swap-icon-pressed.png",
+				"${PODS_ROOT}/ScanditSDK/ScanditSDK/camera-swap-icon-pressed@2x.png",
+				"${PODS_ROOT}/ScanditSDK/ScanditSDK/camera-swap-icon.png",
+				"${PODS_ROOT}/ScanditSDK/ScanditSDK/camera-swap-icon@2x.png",
+				"${PODS_ROOT}/ScanditSDK/ScanditSDK/flashlight-turn-off-icon-pressed.png",
+				"${PODS_ROOT}/ScanditSDK/ScanditSDK/flashlight-turn-off-icon-pressed@2x.png",
+				"${PODS_ROOT}/ScanditSDK/ScanditSDK/flashlight-turn-off-icon.png",
+				"${PODS_ROOT}/ScanditSDK/ScanditSDK/flashlight-turn-off-icon@2x.png",
+				"${PODS_ROOT}/ScanditSDK/ScanditSDK/flashlight-turn-on-icon-pressed.png",
+				"${PODS_ROOT}/ScanditSDK/ScanditSDK/flashlight-turn-on-icon-pressed@2x.png",
+				"${PODS_ROOT}/ScanditSDK/ScanditSDK/flashlight-turn-on-icon.png",
+				"${PODS_ROOT}/ScanditSDK/ScanditSDK/flashlight-turn-on-icon@2x.png",
+				"${PODS_ROOT}/ScanditSDK/ScanditSDK/poweredby.png",
+				"${PODS_ROOT}/ScanditSDK/ScanditSDK/poweredby@2x.png",
+				"${PODS_ROOT}/ScanditSDK/ScanditSDK/de.lproj",
+				"${PODS_ROOT}/ScanditSDK/ScanditSDK/en.lproj",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/beep.wav",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/camera-swap-icon-pressed.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/camera-swap-icon-pressed@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/camera-swap-icon.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/camera-swap-icon@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/flashlight-turn-off-icon-pressed.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/flashlight-turn-off-icon-pressed@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/flashlight-turn-off-icon.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/flashlight-turn-off-icon@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/flashlight-turn-on-icon-pressed.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/flashlight-turn-on-icon-pressed@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/flashlight-turn-on-icon.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/flashlight-turn-on-icon@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/poweredby.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/poweredby@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/de.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/en.lproj",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BarCode Demo/Pods-BarCode Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		845E39F92034AC50008BBD99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845E3A052034AC50008BBD99 /* ViewController.m in Sources */,
+				845E3A022034AC50008BBD99 /* AppDelegate.m in Sources */,
+				845E3A132034AC50008BBD99 /* main.m in Sources */,
+				A7A883352035515000026870 /* WebServicesResultModal.m in Sources */,
+				A7A8833120354E1900026870 /* Modal.m in Sources */,
+				845E3A0B2034AC50008BBD99 /* BarCode_Demo.xcdatamodeld in Sources */,
+				A7A8832E20354D6000026870 /* Webservice.m in Sources */,
+				A7A883382035531D00026870 /* ResultViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		845E3A062034AC50008BBD99 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				845E3A072034AC50008BBD99 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		845E3A0E2034AC50008BBD99 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				845E3A0F2034AC50008BBD99 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		845E3A142034AC50008BBD99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		845E3A152034AC50008BBD99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		845E3A172034AC50008BBD99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0031497B50EF7F1AC20E42DB /* Pods-BarCode Demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = MKUG53YC3M;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/ScanditSDK";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "BarCode Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uvdi.App;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a0ba4c3e-9d93-44d9-8a3c-72cd80717308";
+				PROVISIONING_PROFILE_SPECIFIER = "Degbug Push";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		845E3A182034AC50008BBD99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 260C0FC04EA1E4BA945956AA /* Pods-BarCode Demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = MKUG53YC3M;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/ScanditSDK";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "BarCode Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uvdi.App;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a0ba4c3e-9d93-44d9-8a3c-72cd80717308";
+				PROVISIONING_PROFILE_SPECIFIER = "Degbug Push";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		845E39F82034AC50008BBD99 /* Build configuration list for PBXProject "BarCode Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845E3A142034AC50008BBD99 /* Debug */,
+				845E3A152034AC50008BBD99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		845E3A162034AC50008BBD99 /* Build configuration list for PBXNativeTarget "BarCode Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845E3A172034AC50008BBD99 /* Debug */,
+				845E3A182034AC50008BBD99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		845E3A092034AC50008BBD99 /* BarCode_Demo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				845E3A0A2034AC50008BBD99 /* BarCode_Demo.xcdatamodel */,
+			);
+			currentVersion = 845E3A0A2034AC50008BBD99 /* BarCode_Demo.xcdatamodel */;
+			path = BarCode_Demo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 845E39F52034AC50008BBD99 /* Project object */;
+}
